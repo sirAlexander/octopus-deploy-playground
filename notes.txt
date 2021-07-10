@@ -1,0 +1,7 @@
+docker run -i --rm -p 8080:8080 -p 5005:5005 -e JAVA_ENABLE_DEBUG="true" petclinic
+
+docker run -i --rm -p 8080:8080 -p 5005:5005 -e JAVA_ENABLE_DEBUG="true" siralexander/octopus-deploy-petclinic
+
+1. https://octopus.com/blog/java-ci-cd-co/from-jar-to-docker - Done
+
+2. https://octopus.com/blog/java-ci-cd-co/from-local-to-ci - In Progress
